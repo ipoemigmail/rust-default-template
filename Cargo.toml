@@ -25,6 +25,7 @@ tracing = "0.1"
 tracing-subscriber = "0.3"
 tracing-futures = "0.2"
 sum_type = "0.2"
+erased-serde = "0.3"
 
 {% if crate_type == "bin" %}
 [[bin]]
