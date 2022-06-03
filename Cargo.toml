@@ -31,6 +31,7 @@ tracing-futures = "0.2"
 sum_type = "0.2"
 regex = "1.5"
 strum = { version = "0.24", features = ["derive"] }
+impl-tools = "0.3"
 
 {% if crate_type == "bin" %}
 [[bin]]
